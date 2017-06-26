@@ -13,9 +13,9 @@ public class Tester {
 
         Hello hell = content.getBean(Hello.class);
 
-        //Hello hell = new Hello();
-
         hell.Helloworlds();
+
+        content.close();
 
     }
 
